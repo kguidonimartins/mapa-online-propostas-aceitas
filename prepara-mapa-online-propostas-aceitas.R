@@ -39,7 +39,7 @@ cores_editais <- c(
 mapa_interativo <-
   mapview(
     list(Edital001, Edital002, Edital003),
-    map.types = c("OpenStreetMap", "CartoDB.Positron", "Esri.WorldImagery"),
+    map.types = c("CartoDB.Positron", "OpenStreetMap", "Esri.WorldImagery"),
     alpha.regions = 0.9,
     alpha = 0.9,
     col.regions = list(cores_editais["Edital 1"],
